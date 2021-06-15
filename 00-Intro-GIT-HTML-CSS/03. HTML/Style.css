@@ -1,0 +1,23 @@
+H1{
+    color: red;
+}
+
+img{
+    height: 400px;
+    width: 400px;
+}
+#thirdDiv{
+    height: 600px;
+    width: 500px;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 50px;
+    border: blue;
+    color: white;
+}
+#spanID{
+    font-size: 18px;
+    margin: 50px;
+}
+
+
