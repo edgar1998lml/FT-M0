@@ -21,7 +21,8 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Acá va tu código */
 #ejercicioDos{
-    display: none;
+    /*display: none;*/
+    visibility: hidden;
 }
 
 
@@ -54,10 +55,10 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 #ejercicioCinco{
     display: flex;
     padding: 0 10px;
-    flex-direction: row;
-    align-items: stretch;
-    align-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
     justify-content: space-between;
+    
 }
 
 
