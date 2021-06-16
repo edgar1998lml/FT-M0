@@ -5,13 +5,13 @@
 div {
   margin: 10px;
   border: black 1px solid;
-  /*display: inline;*/
+  display: block;
 }
 
-/*.centrado {
+.centrado {
   width: 100px;
   margin: 0 auto;
-}*/
+}
 
 /*Scrollbar*/
 .centrado {
