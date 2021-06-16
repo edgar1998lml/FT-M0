@@ -64,16 +64,17 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Ejercicio 7. */
 #ejercicioSiete{
-    display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
-  grid-template-rows: 20% 20% 20% 20% 20%;
+ flex-direction: column-reverse;   
+ justify-content: flex-end;
+ align-items: center;
 }
 #elementoUno{
-    grid-column: 3;
-    grid-row: 1;
+flex-direction: row;
+justify-content: flex-end;
+align-items: flex-end;   
 }
 #elementoDos{
-    grid-column: 8;
+
 }
 #elementoTres{
     
